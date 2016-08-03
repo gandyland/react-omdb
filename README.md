@@ -1,3 +1,9 @@
+GitHub:
+https://github.com/ga-wdi-exercises/react-omdb
+Lesson Plan:
+https://github.com/ga-wdi-lessons/react-continued
+
+
 # React OMDB
 
 **See Headers Below For Step By Step Outline**
