@@ -1,16 +1,19 @@
 // // Developer TODO: Define App component defintion here
-import React, {Component} from 'react'
+import React, { Component } from 'react';
 import SearchContainer from "./SearchContainer"
+import styles from './styles/index'
 
-class Hello extends Component {
-  render () {
+class Home extends Component {
+  render() {
     return (
-      <div>
-        <h1>OMDB React</h1>
-        <SearchContainer />
+      <div style={styles.transparentBg} className="jumbotron col-sm-12 text-center">
+        <h1><a href="/">OMDB React</a></h1>
+        <div className="col-sm-12" style={styles.space}>
+          <SearchContainer />
+        </div>
       </div>
     );
   }
 }
 
-export default Hello
+export default Home;
