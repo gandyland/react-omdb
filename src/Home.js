@@ -1,4 +1,3 @@
-// // Developer TODO: Define App component defintion here
 import React, { Component } from 'react';
 import SearchContainer from "./SearchContainer"
 import styles from './styles/index'
